@@ -1,13 +1,8 @@
 name: Generate 3D Low-Level Contributions Chart
 on:
-  # Executa automaticamente a cada 24 horas
   schedule:
     - cron: "0 */24 * * *"
-  
-  # Permite executar manualmente
   workflow_dispatch:
-  
-  # Executa em todo push na branch main
   push:
     branches:
     - main
@@ -26,7 +21,6 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: conf/low-level-3d-contrib.json
           
-      # Push do conteúdo para a branch output
       - name: Push SVGs to output-3d branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
