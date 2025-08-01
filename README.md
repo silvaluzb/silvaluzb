@@ -22,7 +22,7 @@ int main() {
     printf("👋 Hello, World! I'm %s\n", me.name);
     printf("🔧 Focused on: %s\n", me.focus);
     
-    return 0;
+    return EXIT_SUCCESS;
 }
 ```
 
@@ -44,19 +44,16 @@ int main() {
 
 ### 🐍 Contribution Snake - Terminal Theme
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/silvaluzb/silvaluzb/output/github-contribution-grid-snake-terminal.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/silvaluzb/silvaluzb/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/silvaluzb/silvaluzb/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/silvaluzb/silvaluzb/output/github-contribution-grid-snake-terminal.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/silvaluzb/silvaluzb/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 ### 📈 3D Contribution Graph - Assembly Theme
-![3D Contributions](https://raw.githubusercontent.com/silvaluzb/silvaluzb/output-3d-contrib/assembly.svg)
+![3D Contributions Assembly](https://raw.githubusercontent.com/silvaluzb/silvaluzb/output-3d-contrib/assembly.svg)
 
-### 🔥 Memory Layout Visualization
-![Memory Theme](https://raw.githubusercontent.com/silvaluzb/silvaluzb/output-3d-contrib/memory.svg)
-
-### ⚡ CPU Cycles Representation
-![CPU Theme](https://raw.githubusercontent.com/silvaluzb/silvaluzb/output-3d-contrib/cpu.svg)
+### 🔥 3D Contribution Graph - Terminal Theme  
+![3D Contributions Terminal](https://raw.githubusercontent.com/silvaluzb/silvaluzb/output-3d-contrib/terminal.svg)
 
 </div>
 
@@ -85,11 +82,31 @@ _start:
     syscall
 ```
 
+## 🔧 System Specs
+
+```bash
+$ neofetch --off
+OS: Arch Linux x86_64
+Kernel: 6.6.10-arch1-1
+Shell: zsh 5.9
+Terminal: alacritty
+CPU: AMD Ryzen (64-bit)
+Memory: DDR4-3200 CL16
+Storage: NVMe SSD
+```
+
+## 📈 Metrics
+
+- **Languages:** C, C++, Assembly, Rust
+- **Focus:** Systems Programming & Optimization
+- **Debugging:** GDB, Valgrind, Perf, strace
+- **Interests:** Kernel Development, Embedded Systems
+
 ## 📬 Connect
 
-- 💼 **LinkedIn:** [Your LinkedIn]
-- 📧 **Email:** [your.email@domain.com]
-- 🌐 **Website:** [yourwebsite.com]
+- 💼 **LinkedIn:** [Seu LinkedIn aqui]
+- 📧 **Email:** [seu.email@domain.com]
+- 🌐 **Website:** [seuwebsite.com]
 
 ---
 
@@ -97,8 +114,10 @@ _start:
 
 *"There are only 10 types of people in the world: those who understand binary and those who don't."*
 
+```
+01010000 01110010 01101111 01100111 01110010 01100001 01101101 01101101 01101001 01101110 01100111
+```
+
 **⭐ Star my repos if you find them useful!**
 
 </div>
-
-commit
