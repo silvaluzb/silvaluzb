@@ -1,39 +1,39 @@
 [
     {
         "type": "normal",
-        "fileName": "day.svg",
-        "backgroundColor": "#ffffff",
-        "foregroundColor": "#00000f",
-        "strongColor": "#111133",
-        "weakColor": "gray",
-        "radarColor": "#47a042",
+        "fileName": "terminal.svg",
+        "backgroundColor": "#0a0a0a",
+        "foregroundColor": "#00ff41",
+        "strongColor": "#ffffff",
+        "weakColor": "#333333",
+        "radarColor": "#00ff41",
         "growingAnimation": true,
         "contribColors": [
-            "#efefef",
-            "#d8e887",
-            "#8cc569",
-            "#47a042",
-            "#1d6a23"
+            "#1a1a1a",
+            "#2d4a2d",
+            "#408040",
+            "#00ff41",
+            "#66ff66"
         ]
     },
     {
         "type": "rainbow",
-        "fileName": "night.svg",
-        "backgroundColor": "#00000f",
-        "foregroundColor": "#eeeeff",
-        "strongColor": "rgb(255,200,55)",
-        "weakColor": "#aaaaaa",
-        "radarColor": "rgb(255,200,55)",
+        "fileName": "assembly.svg",
+        "backgroundColor": "#0d1117",
+        "foregroundColor": "#c9d1d9",
+        "strongColor": "#ff6b35",
+        "weakColor": "#484f58",
+        "radarColor": "#ff6b35",
         "growingAnimation": true,
-        "saturation": "50%",
+        "saturation": "80%",
         "contribLightness": [
-            "20%",
-            "30%",
+            "15%",
+            "25%",
             "35%",
-            "40%",
-            "50%"
+            "50%",
+            "70%"
         ],
-        "duration": "10s",
-        "hueRatio": -7
+        "duration": "12s",
+        "hueRatio": -3
     }
 ]
