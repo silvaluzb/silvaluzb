@@ -1,0 +1,17 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule: # Executa a cada 24 horas
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: "Generate 3D Contribution Graph"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi38911/github-profile-3d-contrib@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
